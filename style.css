@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.wrapper{
+    background: url(image/background.jpg) no-repeat center top / cover;
+    padding: 60px 0px 99px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.menu li{
+    margin: 12px 12px;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.section{
+    margin-top: 74px;
+}
+
+.head{
+    display: flex;
+    height: 330px;
+    padding: 0px 0px 40px 60px;
+}
+
+.gis{
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin: 20px 20px 0px 0px;
+    align-items: flex-start;
+    margin-left: auto;
+    height: max-content;
+}
+
+.avtor{
+    display: flex;
+    align-items: flex-end;
+    width: 470px;
+}
+.card-item::after{
+    content: "asd";
+    width: 100%;
+    visibility: hidden;
+}
+
+.card-item img{
+    float: left;
+    border-radius: 4px;
+}
+
+.card-item h2::before, .card-item p::before{
+    content: "11";
+    font-size: 20px;
+    visibility: hidden;
+}
+
+
+.card-item h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.card-item p{
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.avtor h1{
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.body{
+    background: #ffffff;
+    padding: 36px 76px 36px 60px;
+}
+
+.text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #333333;
+}
+
+.link{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #8D4FDB;
+    margin-top: 9px;
+}
+
+.go{
+    height: 211px;
+    padding-top: 49px;
+    text-align: center;
+    background: #F1F1F1;
+    margin-bottom: 99px;
+}
+
+.go h1{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.go a{
+    display: inline-block;
+    padding: 8px 25px;
+    margin-top: 21px;
+    font-size: 10px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #8D4FDB;
+    border-radius: 3px;
+}
+
+.footer .container{
+    max-width: 940px;
+}
+
+.stories{
+    padding: 85px 0px 90px;
+}
+
+.stories .title h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.stories .title p{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #A9AFB3;
+    margin-bottom: 50px;
+}
+
+.item{
+    width: 300px;
+}
+
+.item p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 23px;
+}
+
+.user-stories{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories-link{
+    margin-top: 56px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #333333;
+}
+
+.stories-link a{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #8D4FDB;
+}
+
+.copyright{
+    background: #000000;
+    padding: 55px 0px 45px;
+}
+
+.copyright .container p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #8B8B8B;
+    font-weight: 400;
+}
+
+.copyright .container a{
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: 400;
+    color:#8D4FDB;
+}
+
+#bac1{
+    background: url(image/bac1.jpg) no-repeat center top / cover;
+}
+
+#bac2{
+    background: url(image/bac2.jpg) no-repeat center top / cover;
+}
+
+#bac3{
+    background: url(image/bac3.jpg) no-repeat center top / cover;
+}
